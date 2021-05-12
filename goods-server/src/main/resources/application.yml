@@ -1,0 +1,15 @@
+server:
+  port: 8781
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/global_transaction?useSSL=true
+    username: root
+    password: 12345
+
+netty:
+  host: 192.168.0.106
+  port: 8000
+
+request-url: http://192.168.0.106:8784/order

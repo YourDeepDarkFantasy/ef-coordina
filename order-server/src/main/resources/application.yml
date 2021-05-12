@@ -1,0 +1,13 @@
+server:
+  port: 8784
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ef-coordinator?useSSL=true
+    username: root
+    password: 12345
+
+netty:
+  host: localhost
+  port: 8000

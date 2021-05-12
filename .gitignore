@@ -1,0 +1,5 @@
+# Project exclude paths
+/goods-server/target/
+/order-server/target/
+/tc/target/
+/tm/target/
