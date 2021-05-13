@@ -128,7 +128,7 @@ private RestTemplate restTemplate;
 ## 致敬
 
 1.京东的JDhotkey的开发参与者
-2.
+
 部分Netty启动，编解码，拆包封包致敬了京东的JDhotkey框架
 
 2.阿里的seata的开发参与者
