@@ -3,13 +3,13 @@
 ## 介绍
 ef-coordinator是EF家族的一员，本人追求简单高效，所以EF的意思是easyFast。coordinator的意思是协调者
 
-###coordinator功能介绍
+### coordinator功能介绍
 
 coordinator实现了注解驱动的分布式事务和分布式锁，细粒度为函数
 
 基于Spring boot框架开发，具有Spring低代码侵入性的特点。
 
-###coordinator架构简介
+### coordinator架构简介
 
 分布式事务整体角色分为TC(协调者)，TM（事务发起者）和支持事务回滚的数据源
 
@@ -23,7 +23,7 @@ TC(协调者)：默认单机,最近可能提供哈希一致结合数据库持久
 
 @Around("execution(* javax.sql.DataSource.getConnection(..))")即可使用
 
-###coordinator开发框架
+### coordinator开发框架
 
 Java+Netty+Spring Boot
 
@@ -42,7 +42,7 @@ TM:本地打包，添加引用，或者直接把工程引用到项目中
 
 ## 使用说明
 
-###coordinator实现分布式事务
+### coordinator实现分布式事务
 
 所有链路上都实现了 @GlobalTransaction
 
@@ -79,7 +79,7 @@ private RestTemplate restTemplate;
     }
 ```
 
-####coordinator实现分布式事务
+#### coordinator实现分布式事务
 
 1，添加@GlobalLock
 
@@ -100,9 +100,9 @@ private RestTemplate restTemplate;
 
     }
 ```
-##实现原理
+## 实现原理
 
-###coordinator分布式事务
+### coordinator分布式事务
 
 1，面向切面，代理切点函数
 
@@ -113,7 +113,7 @@ private RestTemplate restTemplate;
 4，tc统一管理和控制整体事务
 
 
-###coordinator分布式锁
+### coordinator分布式锁
 
 1，面向切面，代理切点函数
 
