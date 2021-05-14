@@ -14,11 +14,6 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.net.InetSocketAddress;
 
-/**
- * @author laowu
- * @date 2020/9/22 14:45
- * @desc
- */
 public class NettyServer  {
     /**
      * 存储每个客户端接入进来时的 channel 对象

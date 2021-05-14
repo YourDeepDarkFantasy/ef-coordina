@@ -5,8 +5,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author laowu
- * @date 2020/8/22 15:27
  * @desc 资源控制类
  */
 public class Task {

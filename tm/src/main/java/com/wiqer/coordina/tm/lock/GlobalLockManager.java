@@ -1,7 +1,8 @@
-package com.wiqer.coordina.tm.transactional;
+package com.wiqer.coordina.tm.lock;
 
 import com.alibaba.fastjson.JSONObject;
 import com.wiqer.coordina.tm.netty.NettyClient;
+import com.wiqer.coordina.tm.transactional.GlobalTransactionManager;
 import com.wiqer.coordina.tm.util.EFLRUCache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

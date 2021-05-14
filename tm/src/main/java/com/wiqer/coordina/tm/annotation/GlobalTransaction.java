@@ -6,8 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author laowu
- * @date 2020/9/22 11:14
  * @desc 自定义事务管理注解
  */
 @Target(ElementType.METHOD)

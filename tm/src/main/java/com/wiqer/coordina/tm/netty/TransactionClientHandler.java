@@ -15,8 +15,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
- * @author laowu
- * @date 2020/8/22 13:51
+
  * @desc
  */
 public class TransactionClientHandler extends SimpleChannelInboundHandler<String> {

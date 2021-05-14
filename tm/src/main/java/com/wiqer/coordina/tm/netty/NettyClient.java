@@ -19,8 +19,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author laowu
- * @date 2020/9/22 13:51
  * @desc NettyClient 通讯类
  */
 @Component

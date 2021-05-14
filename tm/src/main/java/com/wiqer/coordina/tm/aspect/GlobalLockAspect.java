@@ -1,6 +1,6 @@
 package com.wiqer.coordina.tm.aspect;
 
-import com.wiqer.coordina.tm.transactional.GlobalLockManager;
+import com.wiqer.coordina.tm.lock.GlobalLockManager;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

@@ -2,7 +2,7 @@ package com.wiqer.coordina.tm.netty;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.wiqer.coordina.tm.transactional.GlobalLockManager;
+import com.wiqer.coordina.tm.lock.GlobalLockManager;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import org.slf4j.Logger;

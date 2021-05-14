@@ -9,8 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author laowu
- * @date 2020/9/22 15:56
  * @desc XID拦截器
  */
 public class RequestInterceptor implements HandlerInterceptor {

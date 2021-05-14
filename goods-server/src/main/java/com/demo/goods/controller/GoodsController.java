@@ -17,8 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author laowu
- * @date 2020/9/22 16:27
  * @desc
  */
 @RestController

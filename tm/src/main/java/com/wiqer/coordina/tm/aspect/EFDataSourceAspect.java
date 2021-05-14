@@ -11,8 +11,6 @@ import org.springframework.stereotype.Component;
 import java.sql.Connection;
 
 /**
- * @author laowu
- * @date 2020/9/22 11:56
  * @desc 定义DataSource切面
  */
 @Aspect

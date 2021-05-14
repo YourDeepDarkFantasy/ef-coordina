@@ -10,8 +10,6 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author laowu
- * @date 2020/8/22 14:45
  * @desc Netty服务逻辑处理
  */
 public class TransactionServerHandler extends SimpleChannelInboundHandler<String> {

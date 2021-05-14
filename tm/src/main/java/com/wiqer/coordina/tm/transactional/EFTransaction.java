@@ -5,8 +5,6 @@ import com.wiqer.coordina.tm.menum.TransactionType;
 import com.wiqer.coordina.tm.util.Task;
 
 /**
- * @author laowu
- * @date 2020/9/22 14:23
  * @desc 分支事务
  */
 public class EFTransaction {

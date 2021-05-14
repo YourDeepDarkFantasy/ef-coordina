@@ -12,8 +12,6 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * @author laowu
- * @date 2020/8/22 11:20
  * @desc 自定义切面
  */
 @Aspect

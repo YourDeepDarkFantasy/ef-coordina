@@ -11,12 +11,11 @@ import java.util.Properties;
 import java.util.concurrent.Executor;
 
 /**
- * @author laowu
- * @date 2020/9/22 11:52
  * @desc 实现Connection接口，拿到事务控制权
  */
 public class EFConnection implements Connection {
 
+    //Spring的Connection
     private Connection connection;
     private EFTransaction EFTransaction;
 

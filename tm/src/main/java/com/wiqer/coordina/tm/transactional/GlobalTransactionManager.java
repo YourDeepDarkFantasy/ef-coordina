@@ -13,8 +13,6 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * @author laowu
- * @date 2020/9/22 13:48
  * @desc 事务管理者
  */
 @Component
