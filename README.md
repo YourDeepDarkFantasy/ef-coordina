@@ -73,7 +73,8 @@ private RestTemplate restTemplate;
         return "OK";
     }
 ```
-####coordinator实现分布式事务
+#### coordinator实现分布式事务
+
 1，添加@GlobalLock
 
 2，需要扫描到指定的实体类
