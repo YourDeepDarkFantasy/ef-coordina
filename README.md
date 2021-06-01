@@ -95,7 +95,7 @@ private RestTemplate restTemplate;
 ```
 ## 实现原理
 
-#### TCC 模式
+#### 两阶段 模式
 #### Spring事务传播行为
 
 Spring管理的事务是逻辑事务，而且物理事务和逻辑事务最大差别就在于事务传播行为，
